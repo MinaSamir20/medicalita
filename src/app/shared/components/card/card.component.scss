@@ -1,0 +1,63 @@
+.card-image img {
+  float: left;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-container {
+  margin: 8px;
+}
+
+.product {
+  padding: 20px 0;
+}
+.slider{
+  position: relative;
+}
+.slider-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+  margin: 0 3.8%;
+}
+
+.slider-main {
+  position: absolute;
+  width: 200%;
+}
+
+.item {
+  display: inline-block;
+  width: 230px;
+  height: 350px;
+  position: relative;
+  margin: 0 12px;
+  border: 1px solid #b8b8b8;
+  border-radius: 2%;
+}
+
+.text {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  width: 98%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+.prev{
+  position: absolute;
+  top: 50%;
+  left: 1.5%;
+  transform: translate(-50%, -50%);
+}
+.next{
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translate(-50%, -50%);
+}
+
+.card-body{
+  position: relative;
+  margin: 0 5%;
+}

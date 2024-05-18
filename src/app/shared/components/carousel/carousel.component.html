@@ -1,0 +1,34 @@
+@if (images && images.length > 0) {
+<div class="carousel-container">
+  @for (rate of images; track rate) {
+  <div class="img" [ngClass]="{'image-active': selectedIndex === $index}">
+    <div class="w-100" style="width: 100%;">
+
+      <h5 class="card-title">
+        @for (star of [].constructor(rate.stars); track star) {
+          <i class="fa-solid fa-star text-primary"></i>
+        }
+      </h5>
+      <p class="card-text">{{rate.comment}}</p>
+      <h6 class="card-subtitle mb-2 text-primary"><span class="h4">{{rate.userName}}   </span>   <i class="fa-solid fa-user"></i></h6>
+    </div>
+  </div>
+  }
+
+  @if (indecators) {
+  <div class="carousel-dot-container">
+    @for (dot of images; track dot) {
+    <span class="dot" [ngClass]="{'active': selectedIndex === $index}" (click)="selectImage($index)"></span>
+    }
+  </div>
+  }
+  @if(controls){
+  <button class="btn-carousel btn-prev">
+    <i class="fas fa-arrow-circle-left icon-carousel icon-prev" (click)="onPrevClick()"></i>
+  </button>
+  <button class="btn-carousel btn-next">
+    <i class="fas fa-arrow-circle-right icon-carousel icon-next" (click)="onNextClick()"></i>
+  </button>
+  }
+</div>
+}

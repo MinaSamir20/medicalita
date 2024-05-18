@@ -1,0 +1,26 @@
+<section class="product">
+  <div class="container-fluid slider">
+    <div class="slider-wrap">
+      <div class="slider-main">
+        @for (card of cardData; track card) {
+        <div class="item">
+          <div class="text">
+            <div class="card-image">
+              <img [src]="card.image" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-info">{{card.name}}</h5>
+              <p class="card-text">{{card.description}}</p>
+            </div>
+          </div>
+        </div>
+        }
+
+      </div>
+    </div>
+    <div class="button-area">
+      <a type="button" class="prev" appPrev><i class="fa-solid fa-chevron-left fw-bolder"></i></a>
+      <a type="button" class="next" appNext><i class="fa-solid fa-chevron-right fw-bold"></i></a>
+    </div>
+  </div>
+</section>

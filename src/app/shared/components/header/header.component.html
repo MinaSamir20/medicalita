@@ -1,0 +1,45 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img src="assets/images/logo.jpg" height="50" alt="MDB Logo" loading="lazy" />
+      </a>
+      <!-- Left links -->
+      <ul class="nav p-0 m-0">
+        @for (link of links; track link) {
+        <li class="nav-item d-flex me-3">
+          <a mat-button [routerLink]="link.routerLink" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}" color="primary"><span class="nav-link-inner"><i
+                [ngClass]="link.icon"></i> {{link.name | translate}}</span></a>
+        </li>
+        }
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Languagess -->
+      <button mat-button color="primary" [matMenuTriggerFor]="menu"><i class="fa-solid fa-globe"></i>
+        {{'lang.main'|translate}}</button>
+      <mat-menu #menu="matMenu">
+        @for (lang of langs; track lang) {
+          <button mat-menu-item (click)="changeLanguage(lang.lang)">{{lang.name| translate}}</button>
+        }
+      </mat-menu>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
