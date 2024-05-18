@@ -1,0 +1,64 @@
+{
+  "public": {
+    "home": "منزل",
+    "login": "دخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل خروج",
+    "profile": "الصفحة الشخصية",
+    "users": "المستخدمين"
+  },
+  "menu": {
+    "home": "منزل",
+    "book": "حجز دكتور",
+    "services": " الخدمات الطبية",
+    "contactUs": "اتصل بنا"
+  },
+  "searchBar": {
+    "title": "مرحبا ، ما الذي تريد أن تبحث عنه اليوم؟",
+    "doctor": " ابحث عن دكتور",
+    "spec": "اختار التخصص",
+    "location": "الموقع",
+    "searchButton": "بحث "
+  },
+  "doctors": {
+    "title": "اطباء قد تكون مهتم بهم",
+    "doctor": "دكتور",
+    "spec": "طبيب جراح",
+    "btn": "عرض"
+  },
+  "booking": {
+    "title": "احجز دكتور اونلاين",
+    "name": "حجز دكتور",
+    "description": "احجز ميعاد"
+  },
+  "info": {
+    "title": "اطمني",
+    "title2": "اطمني",
+    "title3": "اطمني"
+  },
+  "services": {
+    "title": "اقوي العروض في المراكز الطبية"
+  },
+  "specialities": {
+    "title": "اختار دكتور حسب التخصص"
+  },
+  "steps": {
+    "bigTitle": "3 خطوات لصحة افضل",
+    "smallTitle": "افعل هذة الاشياء البسيطة واحصل على صحة افضل"
+  },
+  "comment": {
+    "title": "ماذا يقول عنا عملائنا؟"
+  },
+  "footer": {
+    "title": "سجل للحصول على اخر اخبارنا",
+    "email": "البريد الالكتروني",
+    "subscribe": "اشترك",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.",
+    "linksTitle": "روابط"
+  },
+  "lang": {
+    "main": "عربي",
+    "en": "إنجليزي",
+    "ar": "عربي"
+  }
+}

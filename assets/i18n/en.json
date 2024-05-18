@@ -1,0 +1,64 @@
+{
+  "public": {
+    "home": "Home",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "users": "Users"
+  },
+  "menu": {
+    "home": "Home",
+    "book": "Book a doctor",
+    "services": "Medical services",
+    "contactUs": "Contact Us"
+  },
+  "searchBar": {
+    "title": "Welcome, What do you want to look for today?",
+    "doctor": "Search for doctor",
+    "spec": "Choose Spec",
+    "location": "Location",
+    "searchButton": "Search "
+  },
+  "doctors": {
+    "title": "Doctors you may like them",
+    "doctor": "Search for doctor",
+    "spec": "Choose Spec",
+    "btn": "Show"
+  },
+  "booking": {
+    "title": "Book Online Doctor with 3ayz Doctor",
+    "name": "name",
+    "description": "description"
+  },
+  "info": {
+    "title": "Search for doctor",
+    "title2": "Search for doctor",
+    "title3": "Search for doctor"
+  },
+  "services": {
+    "title": "Exclusive offers from medical services"
+  },
+  "specialities": {
+    "title": "Find doctors in top specialities"
+  },
+  "steps": {
+    "bigTitle": "3 Steps to Better Health with Medicalita",
+    "smallTitle": "Do this basic things and have a healthy life"
+  },
+  "comment": {
+    "title": "What our users say about us?"
+  },
+  "footer": {
+    "title": "Sign up for our newsletter",
+    "email": "Email address",
+    "subscribe": "Subscribe",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.",
+    "linksTitle": "Links "
+  },
+  "lang": {
+    "main": "English",
+    "en": "English",
+    "ar": "Arabic"
+  }
+}
